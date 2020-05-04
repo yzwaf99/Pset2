@@ -32,12 +32,6 @@ int main(void)
 
         }
 
-        else 
-        {
-
-
-        }
-
     }
     
     for (int i = 0, n = strlen(text); i < n; i++)
@@ -49,11 +43,7 @@ int main(void)
             sentence++ ;
 
         }
-        else 
-        {
-
-
-        }
+ 
     }
     
     
@@ -67,12 +57,7 @@ int main(void)
 
 
         }
-        
-        else
-        {
-
-
-        }    
+ 
     }
 
     
