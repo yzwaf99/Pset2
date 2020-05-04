@@ -74,26 +74,11 @@ int main(void)
 
         }    
     }
-    
 
-    
-
-    //float L = (100 *  letter / word);
-    
-    //float S = (100 *  sentence /  word);
-    
     
     float grade = round(0.0588 * (100 * (float) letter / (float) word) - 0.296 * (100 * (float) sentence / (float) word) - 15.8);
     
-    //float grade = round(0.0588 * L - 0.296 * S - 15.8);
-    
-    
-    //printf("%i letter(s)\n", letter);
-    //printf("%i sentence(s)\n", sentence);
-    //printf("%i word(s)\n", word);
-    
-    
-    
+
     if (grade >= 16) 
     {
         
